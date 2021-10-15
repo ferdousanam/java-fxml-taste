@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<Button xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+        fx:controller="com.components.ButtonController"
+        fx:id="button"
+        style="-fx-background-color: green; -fx-text-fill: white;"
+        maxWidth="Infinity"
+        onAction="#onPressButton"
+        text="Button">
+</Button>
+
